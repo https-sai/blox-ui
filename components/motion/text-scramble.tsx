@@ -53,14 +53,14 @@ export function TextScramble({ text, className = "" }: TextScrambleProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <motion.h1
-        className="text-5xl md:text-7xl font-bold cursor-pointer select-none bg-gradient-to-r from-foreground to-foreground/60 bg-clip-text text-transparent"
+      <motion.h3
+        className="text-4xl font-bold cursor-pointer select-none bg-gradient-to-r from-foreground to-foreground/60 bg-clip-text text-transparent"
         onClick={scramble}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
         {displayText}
-      </motion.h1>
+      </motion.h3>
     </motion.div>
   );
 }

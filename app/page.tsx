@@ -14,6 +14,7 @@ import { MenuDemo } from "@/components/motion/menu-demo";
 import { FunDivsDemo } from "@/components/motion/fun-divs-demo";
 import { BentoBoxDemo } from "@/components/motion/bento-box-demo";
 import { AnimatedTitle } from "@/components/motion/animated-title";
+import { InfiniteMarqueeDemo } from "@/components/motion/infinite-marquee-demo";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
@@ -61,6 +62,8 @@ export default function Home() {
         return <HighlightActionDemo />;
       case "animated-border":
         return <AnimatedBorderDemo />;
+      case "infinite-marquee":
+        return <InfiniteMarqueeDemo />;
       case "menu":
         return <MenuDemo />;
       case "fun-divs":

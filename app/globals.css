@@ -123,3 +123,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes marquee-px {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-1 * var(--listW)));
+  }
+}
+
+@keyframes marquee-px-reverse {
+  from {
+    transform: translateX(calc(-1 * var(--listW)));
+  }
+  to {
+    transform: translateX(0);
+  }
+}

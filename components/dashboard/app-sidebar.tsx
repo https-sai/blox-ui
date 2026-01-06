@@ -23,6 +23,7 @@ import {
   Menu as MenuIcon,
   Layout,
   LayoutGrid,
+  MoveHorizontal,
 } from "lucide-react";
 
 const menuItems = [
@@ -51,7 +52,11 @@ const menuItems = [
     icon: Square,
     id: "animated-border",
   },
-
+  {
+    title: "Infinite Marquee",
+    icon: MoveHorizontal,
+    id: "infinite-marquee",
+  },
   {
     title: "Bento Box Kanban",
     icon: LayoutGrid,

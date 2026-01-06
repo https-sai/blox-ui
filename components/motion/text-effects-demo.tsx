@@ -244,7 +244,7 @@ export function TextEffectsDemo() {
               {/* Text Scramble */}
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold">Text Scramble</h3>
+                  <h3 className="text-md font-semibold">Text Scramble</h3>
                   <Button
                     variant="outline"
                     size="sm"
@@ -256,7 +256,7 @@ export function TextEffectsDemo() {
                 </div>
                 <div className="flex items-center justify-center min-h-[100px]">
                   <div key={refreshKeys.scramble}>
-                    <TextScramble text="Motion Primitives" />
+                    <TextScramble text="Scramble Text" />
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground">
